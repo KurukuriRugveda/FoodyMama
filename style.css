@@ -1,4 +1,4 @@
- * {
+* {
     font-family: Roboto;
 }
 
@@ -15,8 +15,8 @@
 }
 
 .fmlogo {
-    width: 80px;
-    height: 70px;
+    width: 90px;
+    height: 100px;
 }
 
 .nav-links li a {
@@ -177,6 +177,9 @@
 .two-column {
     display: flex;
     flex-direction: column;
+    border: 1px solid #e6f5ea;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .image-block img {
@@ -187,10 +190,16 @@
     .two-column {
         flex-direction: row;
         justify-content: space-between;
+        border: 1px solid #e6f5ea;
+        margin: 10px;
+        border-radius: 10px;
     }
 
     .two-column.reverse {
         flex-direction: row-reverse;
+        border: 1px solid #e6f5ea;
+        margin: 10px;
+        border-radius: 10px;
     }
 }
 
@@ -198,10 +207,16 @@
     .two-column {
         flex-direction: row;
         justify-content: space-between;
+        border: 1px solid #e6f5ea;
+        margin: 10px;
+        border-radius: 10px;
     }
 
     .two-column.reverse {
         flex-direction: row-reverse;
+        border: 1px solid #e6f5ea;
+        margin: 10px;
+        border-radius: 10px;
     }
 }
 
@@ -263,4 +278,15 @@
 
 .offers {
     font-size: 20px;
+}
+
+.fresh {
+    border-radius: 10px;
+}
+
+.lfood {
+    width: 70px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 10px;
 }
